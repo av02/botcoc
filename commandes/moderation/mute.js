@@ -1,5 +1,5 @@
 const discord = require('discord.js')
-const config = require('/Volumes/Macintosh HD/Users/alexandrevanicotte/Desktop/robot/javascript/config.json')
+const config = require('../config.json')
 module.exports = class muted{
     static async mute(msge,bot){//determiner le type de a_muter: le transformer en guilmember
         let muteur = msge.member;
