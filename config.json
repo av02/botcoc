@@ -1,5 +1,5 @@
 {
-    "token":process.env.token,
+    
     "prefix" :"!",
     "role_moderation":["moderateur","chef adjoint1"],
     "role_imunisé":["moderateur","chef adjoint1"],
