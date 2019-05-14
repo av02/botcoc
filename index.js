@@ -1,4 +1,4 @@
-const Discord = require('https://github.com/discordjs/discord.js/');
+const Discord = require('discord.js');
 const bot = new Discord.Client();
 const help = require('./commandes/help.js');
 //const play = require('./commandes/play.js');//non fonctionnelle
