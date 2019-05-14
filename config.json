@@ -1,5 +1,5 @@
 {
-    "token":"t'as cru jallais mettre le token en ligne boulet?",
+    "token":process.env.token,
     "prefix" :"!",
     "role_moderation":["moderateur","chef adjoint1"],
     "role_imunisé":["moderateur","chef adjoint1"],
