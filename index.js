@@ -60,7 +60,7 @@ bot.on('message', message =>{
 
 
 
-bot.login(config.token);
+bot.login(process.env.token);
 bot.on('error',err =>console.log('redemarage du bot'+err));
 
 
